@@ -80,13 +80,13 @@ dev = [
   'langchain-openai',
   'langchain-chroma>=0.2.5',
   'langchain-community>=0.4.1',
-  'langchain==1.2.15',
-  'datasets==4.3.0',
+  'langchain==1.3.9',
+  'datasets==5.0.1',
   'numpy==1.26.4',
   'types-requests==2.31.0.20240106',
   'InstructorEmbedding==1.0.1',
   'faiss-cpu==1.8.0',
-  'pytest==8.3.5',
+  'pytest==9.2.0',
   'pytest-venv',
   'llama-index==0.13.0',
   'llama-index-llms-openai==0.5.0',
@@ -118,7 +118,7 @@ dev = [
   'llama-index-llms-anthropic==0.8.1',
   'langchain-anthropic>=0.3.20',
   'langchain-mcp-adapters==0.2.1',
-  'mcp==1.27.0',
+  'mcp==1.30.0',
   'a2a-sdk==0.3.6',
   'httpx==0.28.1',
   'fastapi==0.135.3',
@@ -130,22 +130,22 @@ dev = [
   'google-generativeai',
   'mistralai==1.9.9',
   'huggingface_hub==0.35.3',
-  'litellm==1.77.5',
+  'litellm==1.100.4',
   'google-ai-haystack',
   'crewai==0.95.0',
-  'fastmcp==2.14.1',
+  'fastmcp==4.1.4',
   'google-adk',
   'openai-agents',
   'azure-identity',
   'agent-framework-azure-ai',
-  'bedrock-agentcore==1.2.0',
+  'bedrock-agentcore==1.18.1',
   'opentelemetry-semantic-conventions==0.60b1',
   'opentelemetry-semantic-conventions-ai==0.4.13',
   'agent-framework-core==1.5.0',
 ]
 
 dev_tranformers = [
-  'sentence-transformers==5.2.0'
+  'sentence-transformers==5.6.0'
 ]
 
 dev_gemini = [
@@ -153,7 +153,7 @@ dev_gemini = [
 ]
 
 dev_strands = [
-  'strands-agents==1.11.0',
+  'strands-agents==1.48.0',
   'strands-agents-tools==0.2.10'
 ]
 
